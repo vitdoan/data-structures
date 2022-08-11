@@ -1,0 +1,19 @@
+Level 0: 2^0 = 1;
+Level 1: 2^1 = 2;
+Level 2: 2^2 = 4;
+Level 3: 2^3 = 8;
+
+	  Level0		height = 1
+	 /      \
+      Level1		height = 2
+   / \      / \
+      Level2    	height = 3
+
+# of nodes = 2^h - 1;
+=> log nodes = height
+in above example: # of nodes = 7 = 2^3 - 1;
+=> log 7 = 3 (log 8 = 3 but we drop 1 so use log 7 instead)
+
+log 100 = 2
+10^2 = 100
+
